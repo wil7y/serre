@@ -1,0 +1,36 @@
+{
+  "feature_cols": [
+    "hour_sin",
+    "hour_cos",
+    "temperature_lag_1",
+    "temperature_lag_2",
+    "temperature_lag_3",
+    "humidity_lag_1",
+    "humidity_lag_2",
+    "humidity_lag_3",
+    "light_lag_1",
+    "light_lag_2",
+    "light_lag_3",
+    "soil_moisture_lag_1",
+    "soil_moisture_lag_2",
+    "soil_moisture_lag_3",
+    "temperature_ma_3",
+    "temperature_ma_6",
+    "humidity_ma_3",
+    "humidity_ma_6"
+  ],
+  "target_cols": [
+    "temperature",
+    "humidity",
+    "light",
+    "soil_moisture"
+  ],
+  "input_dim": 18,
+  "hidden_dim": 64,
+  "output_dim": 4,
+  "model_type": "MindSpore",
+  "samples": 122,
+  "mse": 354684.5625,
+  "r2": 0.33257776784328075,
+  "training_date": "2026-02-14T01:26:19.888960"
+}
